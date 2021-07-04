@@ -6,7 +6,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-image: url("images/top-banner.png");
   background-repeat: no-repeat;
-  background: #fff;
+  /* background: #fff; */
 }
 h1 {
   font-size: 50px;
@@ -59,14 +59,17 @@ h1 {
 .middle_div {
   height: 625px;
   width: 100%;
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 .middle_left {
-  height: 800px;
+  height: 400px;
   width: 40%;
   float: left;
 }
 .middle_right {
-  height: 800px;
+  height: 400px;
   width: 40%;
   float: left;
   margin-left: 224px;
@@ -93,40 +96,71 @@ h1 {
 }
 .bottom_main {
   width: 100%;
+  /* background-image: url("images/exp-bg.png");
+  background-position: left;
+  background-repeat: no-repeat; */
 }
 .bottom_left {
-  height: 800px;
+  height: 400px;
   width: 40%;
   float: left;
   margin-left: 5%;
   margin-right: 99px;
   margin-top: 80px;
 }
+
 .bottom_right {
-  height: 800px;
+  height: 400px;
   width: 40%;
   float: left;
   margin-top: 80px;
-  margin-left: 5%;
+  /* margin-left: 5%; */
 }
 .bottom_left h1 {
-  font-size: 40px;
+  font-size: 37px;
+  margin-left: 38px;
+  margin-top: 40px;
 }
+
 .bottom_right h1 {
-  font-size: 40px;
+  font-size: 37px;
+  margin-left: 38px;
+  margin-top: 40px;
 }
 .bottom_left h3 {
   margin-top: 30px;
+  margin-left: 38px;
+  color: orange;
 }
 .bottom_right h3 {
   margin-top: 30px;
+  margin-left: 38px;
+  color: orange;
 }
 .bottom_right p {
   margin-top: 20px;
+  margin-left: 38px;
 }
 .bottom_left p {
   margin-top: 20px;
+  margin-left: 38px;
+}
+.bottom_left {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
 }
 .bottom_right {
-  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+.bottom_left {
+  box-shadow: 25px 7px 36px 40px #ddd;
+}
+.bottom_right {
+  box-shadow: 25px 7px 36px 40px #ddd;
+}
+.footer p {
+  margin-top: 20px;
 }

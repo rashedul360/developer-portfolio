@@ -4,7 +4,129 @@
 }
 body {
   font-family: "Poppins", sans-serif;
+  background-image: url("images/top-banner.png");
+  background-repeat: no-repeat;
+  background: #fff;
 }
 h1 {
   font-size: 50px;
+}
+.hello {
+  color: orange;
+}
+.main-top {
+  width: 100%;
+  height: 800px;
+}
+.hire_me {
+  padding: 10px 49px;
+  background: linear-gradient(45deg, lightsalmon, tomato);
+  text-decoration: none;
+  border-radius: 12px;
+}
+.left_main {
+  width: 47%;
+  float: left;
+  height: 400px;
+  margin-top: 121px;
+  margin-left: 117px;
+}
+
+.right_main {
+  width: 40%;
+  float: left;
+  height: 400px;
+}
+.left_main p {
+  margin-top: 30px;
+}
+.right_main img {
+  width: 481px;
+  margin-left: 44px;
+  margin-top: 92px;
+}
+.hire_me_div {
+  height: 309px;
+  width: 300px;
+  margin-top: 45px;
+}
+.hire_me_div a {
+  color: white;
+}
+.middle_left img {
+  width: 570px;
+}
+.middle_div {
+  height: 625px;
+  width: 100%;
+}
+.middle_left {
+  height: 800px;
+  width: 40%;
+  float: left;
+}
+.middle_right {
+  height: 800px;
+  width: 40%;
+  float: left;
+  margin-left: 224px;
+  margin-top: 53px;
+}
+.middle_right h3 {
+  margin-top: 20px;
+}
+.middle_right p {
+  margin-top: 30px;
+}
+.download-div {
+  margin-top: 40px;
+}
+.download {
+  padding: 8px 40px;
+  background: linear-gradient(45deg, lightsalmon, tomato);
+  border-radius: 11px;
+  text-decoration: none;
+  color: white;
+}
+.bon {
+  text-align: center;
+}
+.bottom_main {
+  width: 100%;
+}
+.bottom_left {
+  height: 800px;
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  margin-right: 99px;
+  margin-top: 80px;
+}
+.bottom_right {
+  height: 800px;
+  width: 40%;
+  float: left;
+  margin-top: 80px;
+  margin-left: 5%;
+}
+.bottom_left h1 {
+  font-size: 40px;
+}
+.bottom_right h1 {
+  font-size: 40px;
+}
+.bottom_left h3 {
+  margin-top: 30px;
+}
+.bottom_right h3 {
+  margin-top: 30px;
+}
+.bottom_right p {
+  margin-top: 20px;
+}
+.bottom_left p {
+  margin-top: 20px;
+}
+.bottom_right {
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
 }
